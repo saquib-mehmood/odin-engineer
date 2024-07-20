@@ -1,6 +1,6 @@
-# 🤖 Claude Engineer
+# 🤖 Odin Engineer
 
-Claude Engineer is an advanced interactive command-line interface (CLI) that harnesses the power of Anthropic's Claude-3.5-Sonnet model to assist with a wide range of software development tasks. This tool seamlessly combines the capabilities of a state-of-the-art large language model with practical file system operations, web search functionality, and intelligent code analysis.
+Odin Engineer is an advanced interactive command-line interface (CLI) that harnesses the power of Open Ai's GPT-4o, Anthropic's Claude-3.5-Sonnet and LLMs to assist with a wide range of software development tasks. This tool seamlessly combines the capabilities of a state-of-the-art large language model with practical file system operations, web search functionality, and intelligent code analysis.
 
 ## ✨ Features
 
@@ -23,8 +23,8 @@ Claude Engineer is an advanced interactive command-line interface (CLI) that har
 
 1. Clone this repository:
    ```
-   git clone https://github.com/Doriandarko/claude-engineer.git
-   cd claude-engineer
+   git clone https://https://github.com/saquib-mehmood/odin-engineer.git
+   cd odin-engineer
    ```
 
 2. Install the required dependencies:
@@ -41,13 +41,13 @@ Claude Engineer is an advanced interactive command-line interface (CLI) that har
 
 ## 🚀 Usage
 
-Run the main script to start the Claude Engineer interface:
+Run the main script to start the Odin Engineer interface:
 
 ```
 python main.py
 ```
 
-Once started, you can interact with Claude Engineer by typing your queries or commands. Some example interactions:
+Once started, you can interact with Odin Engineer by typing your queries or commands. Some example interactions:
 
 - "Create a new Python project structure for a web application"
 - "Explain the code in file.py and suggest improvements"
@@ -62,11 +62,11 @@ Special commands:
 
 ### 🤖 Improved Automode
 
-The enhanced automode allows Claude to work autonomously on complex tasks with greater efficiency and control. When in automode:
+The enhanced automode allows Odin to work autonomously on complex tasks with greater efficiency and control. When in automode:
 
-1. Claude sets clear, achievable goals based on your request.
+1. COdin sets clear, achievable goals based on your request.
 2. It works through these goals one by one, using available tools as needed.
-3. Claude provides regular updates on its progress, including the current iteration count.
+3. Odin provides regular updates on its progress, including the current iteration count.
 4. Automode continues until goals are completed or the maximum number of iterations is reached.
 5. You can specify the maximum number of iterations when entering automode.
 
@@ -78,7 +78,7 @@ To use automode:
 
 ### 📊 Enhanced Diff-based File Editing
 
-Claude Engineer now supports an improved diff-based file editing system, allowing for more precise and controlled modifications to existing files. When editing files, Claude will:
+Odin Engineer now supports an improved diff-based file editing system, allowing for more precise and controlled modifications to existing files. When editing files, Claude will:
 
 1. Show a detailed diff of the proposed changes, highlighting additions, removals, and unchanged lines with color coding.
 2. Focus on adding new code or modifying existing code without unnecessarily removing functionality.
@@ -86,22 +86,16 @@ Claude Engineer now supports an improved diff-based file editing system, allowin
 4. Use regex patterns for precise matching and complex edits.
 5. Support various editing scenarios, including targeted changes, appending content, inserting at the beginning, and replacing entire file contents.
 
-This feature enhances Claude's ability to make targeted improvements to your codebase while maintaining the integrity of existing functionality.
+This feature enhances Odin's ability to make targeted improvements to your codebase while maintaining the integrity of existing functionality.
 
 ### 🧠 Improved System Prompt and Error Handling
 
 The system prompt has been updated with more detailed instructions and best practices, allowing Claude to provide more accurate and helpful responses. Additionally, the code now includes enhanced error handling and more detailed output for tool usage, improving the overall reliability and user experience of the application.
 
-Note: Claude will only have access to the files in the root folders of the script or any folder path you provide it.
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+Note: Odin will only have access to the files in the root folders of the script or any folder path you provide it.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Doriandarko/claude-engineer&type=Date)](https://star-history.com/#Doriandarko/claude-engineer&Date)
