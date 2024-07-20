@@ -36,7 +36,7 @@ MAX_CONTINUATION_ITERATIONS = 25
 
 # Initialize the OpenAI client
 client = OpenAI(api_key="")
-tavily = TavilyClient(api_key="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")
+tavily = TavilyClient(api_key="")
 llm = Llama(model_path="../Models/gorilla-llm/gorilla-openfunctions-v2-gguf/gorilla-openfunctions-v2-q4_K_S.gguf",  n_ctx=8000)
 
 
